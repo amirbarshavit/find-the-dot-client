@@ -9,7 +9,6 @@ import WaitingBoard from "./components/WaitingBoard/WaitingBoard";
 import InputForm from "./components/InputForm/InputForm";
 import { getRandomNumber } from "./utils";
 import { updateScoreBoard } from "./services/request";
-import { useKeyboardEventListener } from "./Hooks/useKeyboardEventListener";
 
 const SIDES = ["right", "left"];
 const WAIT = "wait";
@@ -91,8 +90,6 @@ const App = () => {
 
     setScoreCount(0);
   };
-
-  // useKeyboardEventListener(keyboardClick);
 
   const onFormSubmit = (name) => {
     setUserName(name);
