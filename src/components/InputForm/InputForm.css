@@ -1,0 +1,15 @@
+.input-box{
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    height: 40px;
+}

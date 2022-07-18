@@ -1,0 +1,14 @@
+.failed{
+    color: red;
+}
+.success{
+    color: green;
+}
+
+.waiting-board{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: column;
+}
