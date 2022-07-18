@@ -1,5 +1,6 @@
 ## how to run it?
-clone the repo by typing "git clone https://github.com/amirbarshavit/find-the-dot-client.git" in terminal
-go to the repo directory and run "npp i && npm start"
+1)clone the repo by typing "git clone https://github.com/amirbarshavit/find-the-dot-client.git" in terminal
 
-open your borwser on "http://localhost:3000/"
+2)go to the repo directory and run "npp i && npm start"
+
+3)open your borwser on "http://localhost:3000/"
